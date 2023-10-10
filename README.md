@@ -10,10 +10,11 @@ const foo = function() {}: You can't call the function before it's defined becau
 function foo() {}: Can't be reassigned but can be redeclared in the same scope.
 const foo = function() {}: Can't be reassigned because it's using const.
 2.example for destructuring an object or an array?
-  const person = {
-  name: "Natapon",
-  age: 33,
-  city: "Austin"
+ const person = {
+  name: "Alice",
+  age: 30,
+  city: "New York"
 };
-  Destructuring the object
+
+// Destructuring the object
 const { name, age, city } = person;
