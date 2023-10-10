@@ -1,3 +1,5 @@
+Class 10: Prompt 205 - September 28
+
 1. What is different from function foo() {} and const foo = Function() {}?
 - Declaration and Hoisting:
 
